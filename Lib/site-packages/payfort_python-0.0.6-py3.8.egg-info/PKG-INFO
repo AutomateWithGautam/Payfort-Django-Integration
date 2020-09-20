@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: payfort-python
+Version: 0.0.6
+Summary: Payfort Python bindings http://www.payfort.com/ 
+Home-page: https://github.com/alisterion/payfort-python
+Author: Alex Vorobyov
+Author-email: a.vorobyov@bvblogic.com
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python

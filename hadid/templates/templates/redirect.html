@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fortpayapi checkout page</title>
+</head>
+<body>
+<h1>Please do not refresh the page</h1>
+<form method="POST" action="https://sbcheckout.payfort.com/FortAPI/paymentPage" name='frm'>
+    <table>
+        <tbody>
+            <input type="hidden" name="merchant_identifier" value={{ MERCHANT_IDENTIFIER }}>
+            <input type="hidden" name="access_code" value={{ ACCESS_CODE }}>
+            <input type="hidden" name="merchant_reference" value={{ MERCHANT_REFERENCE }}>
+            <input type="hidden" name="language" value={{ LANGUAGE }}>
+            <input type="hidden" name="command" value="PURCHASE">
+            <input type="hidden" name="currency" value={{ CURRENCY }}>
+            <input type="hidden" name="signature" value={{ signature }}>
+            <input type="hidden" name="amount" value={{ Amount }}>
+            <input type="hidden" name="customer_email" value={{ CUSTOMER_EMAIL }}>
+            <input type="hidden" name="order_description" value={{ order_description }}>
+        </tbody>
+    </table>
+    <script type="text/javascript">
+            document.frm.submit();
+    </script>
+</form>
+</body>
+</html>
